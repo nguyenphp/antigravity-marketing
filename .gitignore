@@ -1,0 +1,18 @@
+# Ignore .agent folder in root (installed by users)
+/.agent
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temp files
+.temp_ag_marketing_kit/

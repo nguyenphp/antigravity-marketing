@@ -1,0 +1,44 @@
+{
+  "name": "@nguyenphp/antigravity-marketing",
+  "version": "1.0.0",
+  "description": "Marketing-focused AI agent skills kit for Gemini CLI",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "ag-marketing-kit": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenphp/antigravity-marketing.git"
+  },
+  "homepage": "https://github.com/nguyenphp/antigravity-marketing#readme",
+  "bugs": {
+    "url": "https://github.com/nguyenphp/antigravity-marketing/issues"
+  },
+  "keywords": [
+    "antigravity",
+    "marketing",
+    "cli",
+    "ai",
+    "agent",
+    "gemini",
+    "skills",
+    "seo",
+    "content-marketing",
+    "social-media",
+    "growth-hacking"
+  ],
+  "author": "NguyenPHP",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.3.3",
+    "giget": "^2.0.0",
+    "ora": "^8.2.0"
+  }
+}
