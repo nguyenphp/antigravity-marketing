@@ -40,5 +40,8 @@
     "fs-extra": "^11.3.3",
     "giget": "^2.0.0",
     "ora": "^8.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
