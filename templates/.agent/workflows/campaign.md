@@ -70,6 +70,70 @@ Create campaign assets:
 - Tracking setup
 - Results report
 
+## Step 6: Presentation Builder (Optional)
+
+Ask the user: **"Bạn có muốn tạo file thuyết trình HTML cho campaign này không?"**
+
+If YES, follow these steps:
+
+### 6.1 Build HTML Presentation
+
+Use the `ui-ux-pro-max` skill to create a stunning HTML presentation:
+
+1. Create a single-file HTML presentation with:
+   - Modern dark theme with gradient accents
+   - Slide-based navigation (arrow keys + click)
+   - Progress bar
+   - Touch/swipe support for mobile
+   - All CSS inline (no external dependencies)
+
+2. Content slides should include:
+   - Title slide with campaign name
+   - Goals & KPIs
+   - Target audience
+   - Key messaging
+   - Marketing channels
+   - Timeline
+   - Content plan
+   - Success metrics
+   - CTA / Next steps
+
+3. Save to `docs/campaign-presentation.html`
+
+### 6.2 Preview Locally
+
+Open the presentation in browser:
+
+```bash
+# macOS
+open docs/campaign-presentation.html
+
+# Linux
+xdg-open docs/campaign-presentation.html
+
+# Windows
+start docs/campaign-presentation.html
+```
+
+### 6.3 Deploy to Internet (Optional)
+
+Ask the user: **"Bạn có muốn đẩy lên internet để chia sẻ không?"**
+
+If YES, use nport to create a public URL:
+
+```bash
+# Install nport if not installed
+npm install -g nport
+
+# Start a local server and expose it
+npx serve docs -l 3000 &
+nport 3000 -s <campaign-name>
+```
+
+This will create a public URL like: `https://<campaign-name>.nport.link`
+
+**Note**: The tunnel remains active for ~4 hours. Perfect for sharing presentations in meetings!
+
 ## Skills Used
 
 - marketing-strategist
@@ -78,3 +142,4 @@ Create campaign assets:
 - social-media-expert
 - email-marketing
 - analytics-marketing
+- ui-ux-pro-max
