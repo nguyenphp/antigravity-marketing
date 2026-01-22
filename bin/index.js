@@ -29,6 +29,7 @@ const showBanner = () => {
     ╔══════════════════════════════════════════╗
     ║   🚀 ANTIGRAVITY MARKETING KIT CLI 🚀    ║
     ║        Marketing Skills for AI           ║
+    ║           Created by nguyenphp           ║
     ╚══════════════════════════════════════════╝
     `));
 };
@@ -181,10 +182,15 @@ const initCommand = async (options) => {
 
         // Show skills summary
         console.log(chalk.white('\n📦 Included:'));
-        console.log(chalk.magenta('   • 17 Marketing Skills'));
+        console.log(chalk.magenta('   • 26 Marketing Skills'));
         console.log(chalk.magenta('   • 4 Specialized Agents'));
         console.log(chalk.magenta('   • 4 Workflow Commands'));
         console.log(chalk.gray('────────────────────────────────────────'));
+
+        console.log(chalk.yellow('\n ⭐ Support the project:'));
+        console.log(`    Repo:   ${chalk.cyan('https://github.com/nguyenphp/antigravity-marketing')}`);
+        console.log(`    Coffee: ${chalk.cyan('https://www.buymeacoffee.com/nguyenphp')}`);
+
         console.log(chalk.green('\n🎉 Happy marketing!\n'));
     } catch (error) {
         spinner.fail(chalk.red(`❌ Error: ${error.message}`));
