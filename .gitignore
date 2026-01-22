@@ -20,4 +20,5 @@ Thumbs.db
 # Remotion Output
 out/
 *.mp4
+!docs/assets/videos/*.mp4
 *.webm
