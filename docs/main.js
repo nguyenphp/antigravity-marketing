@@ -118,237 +118,236 @@ const skillData = {
             'Video funnel cho conversion'
         ]
     },
-    'content-repurposing': {
-        icon: '♻️',
-        title: 'Content Repurposing',
-        description: 'Biến 1 bài blog thành 15-20 content pieces cho nhiều platforms. Tiết kiệm 80% thời gian sản xuất content với quy trình repurposing tự động.',
-        capabilities: [
-            'Blog → Twitter thread → LinkedIn post',
-            'Video → Shorts/Reels → Audiogram',
-            'Podcast → Blog → Social clips',
-            'Tối đa hóa ROI từ mỗi content piece'
-        ]
-    },
-    'growth-hacking': {
-        icon: '🚀',
+    icon: '♻️',
+    title: 'Content Repurposing',
+    description: 'Biến 1 bài blog thành 15-20 content pieces cho nhiều platforms. Tiết kiệm 80% thời gian sản xuất content với quy trình repurposing tự động.',
+    capabilities: [
+        'Blog → Twitter thread → LinkedIn post',
+        'Video → Shorts/Reels → Audiogram',
+        'Podcast → Blog → Social clips',
+        'Tối đa hóa ROI từ mỗi content piece'
+    ]
+},
+'growth-hacking': {
+    icon: '🚀',
         title: 'Growth Hacking',
-        description: 'Tăng trưởng nhanh với các chiến thuật growth hacking đã được chứng minh. Từ viral loops, referral programs đến product-led growth strategies.',
-        capabilities: [
-            'Thiết kế viral loops và referral programs',
-            'AARRR funnel optimization',
-            'Product-led growth strategies',
-            'Growth experiments & A/B testing'
-        ]
-    },
-    'ppc-advertising': {
-        icon: '💰',
+            description: 'Tăng trưởng nhanh với các chiến thuật growth hacking đã được chứng minh. Từ viral loops, referral programs đến product-led growth strategies.',
+                capabilities: [
+                    'Thiết kế viral loops và referral programs',
+                    'AARRR funnel optimization',
+                    'Product-led growth strategies',
+                    'Growth experiments & A/B testing'
+                ]
+},
+'ppc-advertising': {
+    icon: '💰',
         title: 'PPC Advertising',
-        description: 'Chạy quảng cáo Google Ads, Meta Ads, TikTok Ads hiệu quả. Từ cấu trúc campaign, bidding strategies đến optimization để giảm CPA và tăng ROAS.',
-        capabilities: [
-            'Thiết kế campaign structure tối ưu',
-            'Keyword research & ad copy writing',
-            'Bidding strategies & budget allocation',
-            'Landing page optimization cho ads'
-        ]
-    },
-    'influencer-marketing': {
-        icon: '👥',
+            description: 'Chạy quảng cáo Google Ads, Meta Ads, TikTok Ads hiệu quả. Từ cấu trúc campaign, bidding strategies đến optimization để giảm CPA và tăng ROAS.',
+                capabilities: [
+                    'Thiết kế campaign structure tối ưu',
+                    'Keyword research & ad copy writing',
+                    'Bidding strategies & budget allocation',
+                    'Landing page optimization cho ads'
+                ]
+},
+'influencer-marketing': {
+    icon: '👥',
         title: 'Influencer Marketing',
-        description: 'Tìm và hợp tác với influencers phù hợp. Từ micro-influencers đến KOLs, xây dựng campaign brief và đo lường ROI hiệu quả.',
-        capabilities: [
-            'Tìm influencers phù hợp với brand',
-            'Tạo campaign brief và contracts',
-            'Đo lường ROI và engagement',
-            'Xây dựng long-term partnerships'
-        ]
-    },
-    'affiliate-marketing': {
-        icon: '🤝',
+            description: 'Tìm và hợp tác với influencers phù hợp. Từ micro-influencers đến KOLs, xây dựng campaign brief và đo lường ROI hiệu quả.',
+                capabilities: [
+                    'Tìm influencers phù hợp với brand',
+                    'Tạo campaign brief và contracts',
+                    'Đo lường ROI và engagement',
+                    'Xây dựng long-term partnerships'
+                ]
+},
+'affiliate-marketing': {
+    icon: '🤝',
         title: 'Affiliate Marketing',
-        description: 'Xây dựng chương trình affiliate với commission structures, partner recruitment và tracking systems. Tăng revenue với đội ngũ affiliates.',
-        capabilities: [
-            'Thiết kế commission structures',
-            'Tạo affiliate recruitment strategies',
-            'Tracking và attribution setup',
-            'Partner relationship management'
-        ]
-    },
-    'lead-gen-scraper': {
-        icon: '🎯',
+            description: 'Xây dựng chương trình affiliate với commission structures, partner recruitment và tracking systems. Tăng revenue với đội ngũ affiliates.',
+                capabilities: [
+                    'Thiết kế commission structures',
+                    'Tạo affiliate recruitment strategies',
+                    'Tracking và attribution setup',
+                    'Partner relationship management'
+                ]
+},
+'lead-gen-scraper': {
+    icon: '🎯',
         title: 'Lead Gen Scraper',
-        description: 'Thu thập và làm giàu dữ liệu leads từ LinkedIn, company websites. Tìm email patterns, validate contacts và build targeted prospect lists cho outreach.',
-        capabilities: [
-            'Tìm leads từ LinkedIn & directories',
-            'Đoán email patterns chính xác',
-            'Enrich data với company info',
-            'Validate và clean email lists'
-        ]
-    },
-    'social-media-expert': {
-        icon: '📱',
+            description: 'Thu thập và làm giàu dữ liệu leads từ LinkedIn, company websites. Tìm email patterns, validate contacts và build targeted prospect lists cho outreach.',
+                capabilities: [
+                    'Tìm leads từ LinkedIn & directories',
+                    'Đoán email patterns chính xác',
+                    'Enrich data với company info',
+                    'Validate và clean email lists'
+                ]
+},
+'social-media-expert': {
+    icon: '📱',
         title: 'Social Media Expert',
-        description: 'Quản lý và phát triển social media trên Facebook, Instagram, TikTok, LinkedIn. Từ content strategy, posting schedule đến engagement tactics.',
-        capabilities: [
-            'Content strategy cho từng platform',
-            'Optimal posting times & frequency',
-            'Engagement và community building',
-            'Hashtag và trend strategies'
-        ]
-    },
-    'email-marketing': {
-        icon: '📧',
+            description: 'Quản lý và phát triển social media trên Facebook, Instagram, TikTok, LinkedIn. Từ content strategy, posting schedule đến engagement tactics.',
+                capabilities: [
+                    'Content strategy cho từng platform',
+                    'Optimal posting times & frequency',
+                    'Engagement và community building',
+                    'Hashtag và trend strategies'
+                ]
+},
+'email-marketing': {
+    icon: '📧',
         title: 'Email Marketing',
-        description: 'Xây dựng email campaigns chuyển đổi cao. Từ welcome sequences, abandoned cart đến re-engagement flows. Tối ưu deliverability và open rates.',
-        capabilities: [
-            'Automation sequences (welcome, nurture)',
-            'Subject line A/B testing',
-            'Segmentation strategies',
-            'Deliverability best practices'
-        ]
-    },
-    'seo-fundamentals': {
-        icon: '🔍',
+            description: 'Xây dựng email campaigns chuyển đổi cao. Từ welcome sequences, abandoned cart đến re-engagement flows. Tối ưu deliverability và open rates.',
+                capabilities: [
+                    'Automation sequences (welcome, nurture)',
+                    'Subject line A/B testing',
+                    'Segmentation strategies',
+                    'Deliverability best practices'
+                ]
+},
+'seo-fundamentals': {
+    icon: '🔍',
         title: 'SEO Fundamentals',
-        description: 'Tối ưu website cho Google Search. Từ on-page SEO, technical SEO đến link building strategies. Tăng organic traffic bền vững.',
-        capabilities: [
-            'On-page SEO optimization',
-            'Technical SEO audits',
-            'Link building strategies',
-            'Local SEO cho businesses'
-        ]
-    },
-    'keyword-research-deep': {
-        icon: '🔑',
+            description: 'Tối ưu website cho Google Search. Từ on-page SEO, technical SEO đến link building strategies. Tăng organic traffic bền vững.',
+                capabilities: [
+                    'On-page SEO optimization',
+                    'Technical SEO audits',
+                    'Link building strategies',
+                    'Local SEO cho businesses'
+                ]
+},
+'keyword-research-deep': {
+    icon: '🔑',
         title: 'Deep Keyword Research',
-        description: 'Nghiên cứu keyword nâng cao với clustering, intent analysis và content gaps. Tìm long-tail opportunities mà đối thủ bỏ lỡ.',
-        capabilities: [
-            'Keyword clustering theo topics',
-            'Search intent analysis',
-            'Content gap discovery',
-            'Long-tail keyword mining'
-        ]
-    },
-    'analytics-marketing': {
-        icon: '📊',
+            description: 'Nghiên cứu keyword nâng cao với clustering, intent analysis và content gaps. Tìm long-tail opportunities mà đối thủ bỏ lỡ.',
+                capabilities: [
+                    'Keyword clustering theo topics',
+                    'Search intent analysis',
+                    'Content gap discovery',
+                    'Long-tail keyword mining'
+                ]
+},
+'analytics-marketing': {
+    icon: '📊',
         title: 'Marketing Analytics',
-        description: 'Đo lường và phân tích marketing performance. Từ GA4 setup, attribution modeling đến dashboard design. Ra quyết định dựa trên data.',
-        capabilities: [
-            'GA4 setup và configuration',
-            'Attribution model selection',
-            'Dashboard design cho stakeholders',
-            'Cohort và funnel analysis'
-        ]
-    },
-    'conversion-optimization': {
-        icon: '🎯',
+            description: 'Đo lường và phân tích marketing performance. Từ GA4 setup, attribution modeling đến dashboard design. Ra quyết định dựa trên data.',
+                capabilities: [
+                    'GA4 setup và configuration',
+                    'Attribution model selection',
+                    'Dashboard design cho stakeholders',
+                    'Cohort và funnel analysis'
+                ]
+},
+'conversion-optimization': {
+    icon: '🎯',
         title: 'Conversion Optimization',
-        description: 'Tăng conversion rate cho website và landing pages. Từ A/B testing, UX improvements đến psychological triggers cho conversions.',
-        capabilities: [
-            'A/B testing strategy',
-            'Landing page optimization',
-            'Form và checkout improvements',
-            'Psychological conversion triggers'
-        ]
-    },
-    'marketing-automation': {
-        icon: '⚙️',
+            description: 'Tăng conversion rate cho website và landing pages. Từ A/B testing, UX improvements đến psychological triggers cho conversions.',
+                capabilities: [
+                    'A/B testing strategy',
+                    'Landing page optimization',
+                    'Form và checkout improvements',
+                    'Psychological conversion triggers'
+                ]
+},
+'marketing-automation': {
+    icon: '⚙️',
         title: 'Marketing Automation',
-        description: 'Tự động hóa marketing workflows với lead nurturing, scoring và lifecycle campaigns. Tiết kiệm thời gian và tăng efficiency.',
-        capabilities: [
-            'Lead nurturing sequences',
-            'Lead scoring systems',
-            'Lifecycle marketing automation',
-            'Multi-channel workflow design'
-        ]
-    },
-    'ab-test-dashboard': {
-        icon: '🧪',
+            description: 'Tự động hóa marketing workflows với lead nurturing, scoring và lifecycle campaigns. Tiết kiệm thời gian và tăng efficiency.',
+                capabilities: [
+                    'Lead nurturing sequences',
+                    'Lead scoring systems',
+                    'Lifecycle marketing automation',
+                    'Multi-channel workflow design'
+                ]
+},
+'ab-test-dashboard': {
+    icon: '🧪',
         title: 'A/B Test Dashboard',
-        description: 'Thiết kế và track A/B tests một cách khoa học. Tính toán sample size, statistical significance và visualize results cho team.',
-        capabilities: [
-            'Thiết kế experiments đúng cách',
-            'Sample size calculation',
-            'Statistical significance check',
-            'Dashboard cho reporting'
-        ]
-    },
-    'ad-creative-variations': {
-        icon: '🎨',
+            description: 'Thiết kế và track A/B tests một cách khoa học. Tính toán sample size, statistical significance và visualize results cho team.',
+                capabilities: [
+                    'Thiết kế experiments đúng cách',
+                    'Sample size calculation',
+                    'Statistical significance check',
+                    'Dashboard cho reporting'
+                ]
+},
+'ad-creative-variations': {
+    icon: '🎨',
         title: 'Ad Creative Variations',
-        description: 'Tạo hàng chục biến thể ad copy và creative trong vài phút. Headlines, descriptions, CTAs cho Meta, Google, TikTok Ads.',
-        capabilities: [
-            'Mass headline generation',
-            'Ad copy với PAS, AIDA frameworks',
-            'CTA variations testing',
-            'Visual concept prompts cho designers'
-        ]
-    },
-    'competitor-teardown': {
-        icon: '🔎',
+            description: 'Tạo hàng chục biến thể ad copy và creative trong vài phút. Headlines, descriptions, CTAs cho Meta, Google, TikTok Ads.',
+                capabilities: [
+                    'Mass headline generation',
+                    'Ad copy với PAS, AIDA frameworks',
+                    'CTA variations testing',
+                    'Visual concept prompts cho designers'
+                ]
+},
+'competitor-teardown': {
+    icon: '🔎',
         title: 'Competitor Teardown',
-        description: 'Phân tích đối thủ toàn diện: website, social, ads, SEO. Tìm gaps và opportunities để vượt qua competitors.',
-        capabilities: [
-            'Website và UX analysis',
-            'Social media audit',
-            'Ad intelligence (Meta/Google)',
-            'SWOT competitor mapping'
-        ]
-    },
-    'competitor-monitor': {
-        icon: '👁️',
+            description: 'Phân tích đối thủ toàn diện: website, social, ads, SEO. Tìm gaps và opportunities để vượt qua competitors.',
+                capabilities: [
+                    'Website và UX analysis',
+                    'Social media audit',
+                    'Ad intelligence (Meta/Google)',
+                    'SWOT competitor mapping'
+                ]
+},
+'competitor-monitor': {
+    icon: '👁️',
         title: 'Competitor Monitor',
-        description: 'Theo dõi đối thủ 24/7 với alerts cho price changes, new campaigns, website updates. Phản ứng nhanh với mọi động thái.',
-        capabilities: [
-            'Website change detection',
-            'Price monitoring alerts',
-            'New ad campaign notifications',
-            'Competitive dashboard setup'
-        ]
-    },
-    'ui-ux-pro-max': {
-        icon: '✨',
+            description: 'Theo dõi đối thủ 24/7 với alerts cho price changes, new campaigns, website updates. Phản ứng nhanh với mọi động thái.',
+                capabilities: [
+                    'Website change detection',
+                    'Price monitoring alerts',
+                    'New ad campaign notifications',
+                    'Competitive dashboard setup'
+                ]
+},
+'ui-ux-pro-max': {
+    icon: '✨',
         title: 'UI/UX Pro Max',
-        description: 'Thiết kế UI/UX chuyên nghiệp cho marketing websites và landing pages. Design systems, components và best practices.',
-        capabilities: [
-            'Landing page design systems',
-            'Conversion-focused UI patterns',
-            'Mobile-first responsive design',
-            'Accessibility best practices'
-        ]
-    },
-    'frontend-design': {
-        icon: '🖥️',
+            description: 'Thiết kế UI/UX chuyên nghiệp cho marketing websites và landing pages. Design systems, components và best practices.',
+                capabilities: [
+                    'Landing page design systems',
+                    'Conversion-focused UI patterns',
+                    'Mobile-first responsive design',
+                    'Accessibility best practices'
+                ]
+},
+'frontend-design': {
+    icon: '🖥️',
         title: 'Frontend Design',
-        description: 'Xây dựng marketing websites và landing pages đẹp mắt. HTML, CSS, responsive design cho non-developers.',
-        capabilities: [
-            'Landing page templates',
-            'Responsive design patterns',
-            'Animation và micro-interactions',
-            'Performance optimization'
-        ]
-    },
-    'tailwind-patterns': {
-        icon: '🎨',
+            description: 'Xây dựng marketing websites và landing pages đẹp mắt. HTML, CSS, responsive design cho non-developers.',
+                capabilities: [
+                    'Landing page templates',
+                    'Responsive design patterns',
+                    'Animation và micro-interactions',
+                    'Performance optimization'
+                ]
+},
+'tailwind-patterns': {
+    icon: '🎨',
         title: 'Tailwind Patterns',
-        description: 'Component library với Tailwind CSS cho marketing pages. Hero sections, CTAs, testimonials, pricing tables sẵn sàng sử dụng.',
-        capabilities: [
-            'Marketing component library',
-            'Hero sections & CTAs',
-            'Testimonials & social proof',
-            'Pricing tables & features'
-        ]
-    },
-    'documentation-templates': {
-        icon: '📝',
+            description: 'Component library với Tailwind CSS cho marketing pages. Hero sections, CTAs, testimonials, pricing tables sẵn sàng sử dụng.',
+                capabilities: [
+                    'Marketing component library',
+                    'Hero sections & CTAs',
+                    'Testimonials & social proof',
+                    'Pricing tables & features'
+                ]
+},
+'documentation-templates': {
+    icon: '📝',
         title: 'Documentation Templates',
-        description: 'Templates cho marketing documentation: PRDs, campaign briefs, reports. Chuẩn hóa quy trình làm việc của team.',
-        capabilities: [
-            'Campaign brief templates',
-            'Marketing report formats',
-            'SOPs và process docs',
-            'Knowledge base structures'
-        ]
-    }
+            description: 'Templates cho marketing documentation: PRDs, campaign briefs, reports. Chuẩn hóa quy trình làm việc của team.',
+                capabilities: [
+                    'Campaign brief templates',
+                    'Marketing report formats',
+                    'SOPs và process docs',
+                    'Knowledge base structures'
+                ]
+}
 };
 
 // Show Skill Modal

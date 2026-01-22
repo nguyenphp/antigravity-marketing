@@ -10,7 +10,7 @@ const translations = {
         "hero.badge": "🎯 Marketing Skills for AI Agents",
         "hero.title1": "Antigravity",
         "hero.title2": "Marketing Kit",
-        "hero.subtitle": "24 marketing skills, 4 agents, and 4 workflows. Supercharge your AI-powered marketing with one command.",
+        "hero.subtitle": "25 marketing skills, 4 agents, and 4 workflows. Supercharge your AI-powered marketing with one command.",
         "hero.getStarted": "Get Started",
         "hero.viewGithub": "View on GitHub",
         "hero.skills": "Skills",
@@ -20,7 +20,7 @@ const translations = {
         // Features
         "features.title": "Why Antigravity Marketing?",
         "features.subtitle": "Everything you need to supercharge your AI marketing workflow",
-        "features.skills.title": "24 Marketing Skills",
+        "features.skills.title": "25 Marketing Skills",
         "features.skills.desc": "Content, SEO, social media, email, PPC, growth hacking, and more. All optimized for marketing excellence.",
         "features.agents.title": "4 Specialized Agents",
         "features.agents.desc": "Marketing strategist, content creator, growth specialist, and analytics expert ready to assist.",
@@ -34,7 +34,7 @@ const translations = {
         "features.analytics.desc": "Analytics, attribution, and optimization skills to measure and improve results.",
 
         // Skills
-        "skills.title": "All 24 Skills",
+        "skills.title": "All 25 Skills",
         "skills.subtitle": "Click any skill to see what it can do for you",
         "skills.content": "Content & Creative",
         "skills.growth": "Growth & Acquisition",
@@ -81,7 +81,7 @@ const translations = {
         "hero.badge": "🎯 Marketing Skills cho AI Agents",
         "hero.title1": "Antigravity",
         "hero.title2": "Marketing Kit",
-        "hero.subtitle": "24 marketing skills, 4 agents, và 4 workflows. Nâng cấp marketing AI của bạn chỉ với một lệnh.",
+        "hero.subtitle": "25 marketing skills, 4 agents, và 4 workflows. Nâng cấp marketing AI của bạn chỉ với một lệnh.",
         "hero.getStarted": "Bắt đầu ngay",
         "hero.viewGithub": "Xem trên GitHub",
         "hero.skills": "Skills",
@@ -91,7 +91,7 @@ const translations = {
         // Features
         "features.title": "Tại sao chọn Antigravity Marketing?",
         "features.subtitle": "Tất cả những gì bạn cần để nâng cấp quy trình marketing AI",
-        "features.skills.title": "24 Marketing Skills",
+        "features.skills.title": "25 Marketing Skills",
         "features.skills.desc": "Content, SEO, social media, email, PPC, growth hacking, và nhiều hơn nữa. Tất cả tối ưu cho marketing.",
         "features.agents.title": "4 Agents Chuyên Biệt",
         "features.agents.desc": "Marketing strategist, content creator, growth specialist, và analytics expert sẵn sàng hỗ trợ.",
@@ -105,7 +105,7 @@ const translations = {
         "features.analytics.desc": "Analytics, attribution, và optimization skills để đo lường và cải thiện kết quả.",
 
         // Skills
-        "skills.title": "Tất cả 24 Skills",
+        "skills.title": "Tất cả 25 Skills",
         "skills.subtitle": "Click vào skill để xem chi tiết",
         "skills.content": "Content & Sáng tạo",
         "skills.growth": "Growth & Acquisition",
