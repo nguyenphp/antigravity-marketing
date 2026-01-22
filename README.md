@@ -32,7 +32,9 @@ This project is built upon and includes skills from:
 - 🎨 **[UI UX Pro Max](https://ui-ux-pro-max-skill.nextlevelbuilder.io/)** - Design intelligence skills (`ui-ux-pro-max`, `frontend-design`, `tailwind-patterns`)
 - 🛠️ **[ClaudeKit](https://claudekit.cc/)** - Production-ready skills (`seo-fundamentals`, `documentation-templates`)
 
-## 🎥 Video Showcase (Automated via Remotion)
+## 🎥 Video Showcase (Automated via [Remotion](https://www.remotion.dev/))
+
+✨ **Video-Automation Skill**: This feature inherits its power directly from our Remotion-based skills, allowing for the programmatic creation of high-fidelity marketing videos.
 
 | YouTube (16:9) | TikTok / Reels (9:16) |
 |:---:|:---:|
