@@ -1,6 +1,6 @@
 # 🚀 Antigravity Marketing Kit
 
-> **24 marketing skills, 4 agents, and 4 workflows** for AI-powered marketing with Gemini CLI.
+> **26 marketing skills, 4 agents, and 4 workflows** for AI-powered marketing with Gemini CLI.
 
 ## 📋 Table of Contents
 
@@ -31,6 +31,7 @@ This project is built upon and includes skills from:
 - 🚀 **[Antigravity Kit](https://github.com/vudovn/antigravity-kit)** - Base CLI structure and core skills
 - 🎨 **[UI UX Pro Max](https://ui-ux-pro-max-skill.nextlevelbuilder.io/)** - Design intelligence skills (`ui-ux-pro-max`, `frontend-design`, `tailwind-patterns`)
 - 🛠️ **[ClaudeKit](https://claudekit.cc/)** - Production-ready skills (`seo-fundamentals`, `documentation-templates`)
+- 🎬 **[Remotion Dev Skills](https://github.com/remotion-dev/skills)** - Official Remotion best practices (`remotion-best-practices`)
 
 ## 🎥 Video Showcase (Automated via [Remotion](https://www.remotion.dev/))
 
@@ -40,7 +41,7 @@ This project is built upon and includes skills from:
 |:---:|:---:|
 | <video src="https://github.com/nguyenphp/antigravity-marketing/raw/main/docs/assets/videos/antigravity-promo-169.mp4" width="100%" controls></video> | <video src="https://github.com/nguyenphp/antigravity-marketing/raw/main/docs/assets/videos/antigravity-promo-916.mp4" width="100%" controls></video> |
 
-## 🧠 Skills (25)
+## 🧠 Skills (26)
 
 ### Content & Creative
 | Skill | Description |
@@ -94,6 +95,7 @@ This project is built upon and includes skills from:
 | `frontend-design` | Landing page & web design |
 | `tailwind-patterns` | Utility-first CSS patterns |
 | `documentation-templates` | Marketing documentation templates |
+| `remotion-best-practices` | **Official Remotion video production rules** |
 
 ## 🤖 Agents (4)
 
