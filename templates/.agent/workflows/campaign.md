@@ -86,6 +86,7 @@ Use the `ui-ux-pro-max` skill to create a stunning HTML presentation:
    - Progress bar
    - Touch/swipe support for mobile
    - All CSS inline (no external dependencies)
+   - **Font selection**: Use Vietnamese-friendly fonts like `Inter`, `Be Vietnam Pro`, or `Roboto` if the content is in Vietnamese to avoid broken characters.
 
 2. Content slides should include:
    - Title slide with campaign name
