@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.12] - 2026-01-24
+
+### 🌐 Official Domain Integration
+- **Homepage Update**: Set `ag-mkt.site` as the official project domain in `package.json`, `index.html`, and `README.md`.
+
 ## [1.0.11] - 2026-01-24
 
 ### 🚀 Major Branding Refresh
