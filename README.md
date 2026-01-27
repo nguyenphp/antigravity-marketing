@@ -3,7 +3,7 @@
 
   # 🚀 Antigravity Marketing Kit
 
-  > **26 specialized marketing skills, 4 expert agents, and 4 streamlined workflows.**
+  > **41+ specialized marketing skills, 4 expert agents, and 4 streamlined workflows.**
   > Your ultimate AI-powered marketing command center for the Gemini CLI.
 
   [![npm version](https://img.shields.io/npm/v/@nguyenphp/antigravity-marketing.svg)](https://www.npmjs.com/package/@nguyenphp/antigravity-marketing)
@@ -23,7 +23,7 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 > **Built on the shoulders of giants.** Based on [Antigravity Kit](https://github.com/vudovn/antigravity-kit), the definitive framework for AI agent skills.
 
 ### Why Antigravity?
-- **🧠 Domain Expertise**: 26 skills covering the entire marketing spectrum.
+- **🧠 Domain Expertise**: 41+ skills covering the entire marketing spectrum.
 - **🤖 Specialized Agents**: Content, Growth, Strategy, and Analytics experts at your service.
 - **🔄 Proven Workflows**: Turn complex tasks into simple commands.
 - **🎬 Video Automation**: Programmatic high-fidelity marketing videos via Remotion.
@@ -38,7 +38,7 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 |:---:|:---:|
 | <video src="https://github.com/nguyenphp/antigravity-marketing/raw/main/docs/assets/videos/antigravity-promo-169.mp4" width="100%" controls></video> | <video src="https://github.com/nguyenphp/antigravity-marketing/raw/main/docs/assets/videos/antigravity-promo-916.mp4" width="100%" controls></video> |
 
-## 🧠 Skills (26)
+## 🧠 Skills (41+)
 
 ### Content & Creative
 | Skill | Description |
@@ -48,6 +48,8 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `video-marketing` | Video strategy, YouTube SEO, short-form content |
 | `video-automation` | **Automated marketing videos via Remotion** |
 | `content-repurposing` | Transform content into multiple formats |
+| `marketing-ideas` | **Brainstormer for creative SaaS campaigns** |
+| `marketing-psychology` | **Behavioral economics & growth triggers** |
 
 ### Growth & Acquisition
 | Skill | Description |
@@ -57,6 +59,11 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `influencer-marketing` | Influencer outreach, KOL partnerships |
 | `affiliate-marketing` | Affiliate programs, partner networks |
 | `lead-gen-scraper` | Lead generation, prospect research |
+| `launch-strategy` | **ORB framework for product launches** |
+| `referral-program` | **Viral growth loops & affiliate design** |
+| `programmatic-seo` | **Large-scale SEO automation strategy** |
+| `app-store-optimization`| **ASO for App Store & Play Store** |
+| `viral-generator` | **Viral quiz & calculator engineering** |
 
 ### Channels
 | Skill | Description |
@@ -73,6 +80,12 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `conversion-optimization` | CRO, A/B testing, landing pages |
 | `marketing-automation` | Lead nurturing, workflows, segmentation |
 | `ab-test-dashboard` | A/B test analysis, statistical significance |
+| `onboarding-cro` | **User activation & TTV optimization** |
+| `page-cro` | **Landing page conversion diagnostics** |
+| `popup-cro` | **Engagement trigger optimization** |
+| `signup-flow-cro` | **Registration friction reduction** |
+| `paywall-upgrade-cro` | **Monetization & upsell psychology** |
+| `pricing-strategy` | **Value-based pricing & tier design** |
 
 ### Ads & Creative
 | Skill | Description |
@@ -93,6 +106,8 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `tailwind-patterns` | Utility-first CSS patterns |
 | `documentation-templates` | Marketing documentation templates |
 | `remotion-best-practices` | **Official Remotion video production rules** |
+| `brand-guidelines-anthropic`| **Official Anthropic look & feel** |
+| `brand-guidelines-community`| **Modern community styling presets** |
 
 ## 🤖 Agents (4)
 
@@ -212,6 +227,7 @@ This project is built upon and includes skills from:
 - 🎨 **[UI UX Pro Max](https://ui-ux-pro-max-skill.nextlevelbuilder.io/)** - Design intelligence skills (`ui-ux-pro-max`, `frontend-design`, `tailwind-patterns`)
 - 🛠️ **[ClaudeKit](https://claudekit.cc/)** - Production-ready skills (`seo-fundamentals`, `documentation-templates`)
 - 🎬 **[Remotion Dev Skills](https://github.com/remotion-dev/skills)** - Official Remotion best practices (`remotion-best-practices`)
+- 🌌 **[Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)** - 250+ community-powered agentic skills (`marketing-ideas`, `cro-suite`, `programmatic-seo`, etc.)
 
 ## 📄 License
 

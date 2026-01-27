@@ -10,7 +10,7 @@ const translations = {
         "hero.badge": "🎯 Marketing Skills for AI Agents",
         "hero.title1": "Antigravity",
         "hero.title2": "Marketing Kit",
-        "hero.subtitle": "25 marketing skills, 4 agents, and 4 workflows. Supercharge your AI-powered marketing with one command.",
+        "hero.subtitle": "41+ marketing skills, 4 agents, and 4 workflows. Supercharge your AI-powered marketing with one command.",
         "hero.getStarted": "Get Started",
         "hero.viewGithub": "View on GitHub",
         "hero.skills": "Skills",
@@ -36,7 +36,7 @@ const translations = {
         "showcase.subtitle": "programmatic video production power inherited from Remotion Skills.",
 
         // Skills
-        "skills.title": "All 25 Skills",
+        "skills.title": "All 41+ Skills",
         "skills.subtitle": "Click any skill to see what it can do for you",
         "skills.content": "Content & Creative",
         "skills.growth": "Growth & Acquisition",
@@ -442,7 +442,7 @@ const translations = {
         "hero.badge": "🎯 Marketing Skills cho AI Agents",
         "hero.title1": "Antigravity",
         "hero.title2": "Marketing Kit",
-        "hero.subtitle": "25 marketing skills, 4 agents, và 4 workflows. Nâng cấp marketing AI của bạn chỉ với một lệnh.",
+        "hero.subtitle": "41+ marketing skills, 4 agents, và 4 workflows. Nâng cấp marketing AI của bạn chỉ với một lệnh.",
         "hero.getStarted": "Bắt đầu ngay",
         "hero.viewGithub": "Xem trên GitHub",
         "hero.skills": "Skills",
@@ -468,7 +468,7 @@ const translations = {
         "showcase.subtitle": "Sức mạnh sản xuất video tự động kế thừa từ Remotion Skills.",
 
         // Skills
-        "skills.title": "Tất cả 25 Kỹ năng",
+        "skills.title": "Tất cả 41+ Kỹ năng",
         "skills.subtitle": "Click vào skill để xem chi tiết",
         "skills.content": "Content & Sáng tạo",
         "skills.growth": "Growth & Acquisition",

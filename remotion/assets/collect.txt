@@ -1,0 +1,4 @@
+import { generate_image } from 'default_api';
+
+// I will use search_web or generate_image if I need assets, 
+// but for now I'll just look for what I can find or generate.
