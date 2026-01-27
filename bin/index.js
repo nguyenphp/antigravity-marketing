@@ -17,6 +17,11 @@ const TEMPLATES_FOLDER = 'templates';
 const AGENT_FOLDER = '.agent';
 const TEMP_FOLDER = '.temp_ag_marketing_kit';
 
+// Skill counts for synchronization
+const SKILL_COUNT = '41+';
+const AGENT_COUNT = '4';
+const WORKFLOW_COUNT = '4';
+
 // ============================================================================
 // UTILITIES
 // ============================================================================
@@ -182,9 +187,9 @@ const initCommand = async (options) => {
 
         // Show skills summary
         console.log(chalk.white('\n📦 Included:'));
-        console.log(chalk.magenta('   • 26 Marketing Skills'));
-        console.log(chalk.magenta('   • 4 Specialized Agents'));
-        console.log(chalk.magenta('   • 4 Workflow Commands'));
+        console.log(chalk.magenta(`   • ${SKILL_COUNT} Marketing Skills`));
+        console.log(chalk.magenta(`   • ${AGENT_COUNT} Specialized Agents`));
+        console.log(chalk.magenta(`   • ${WORKFLOW_COUNT} Workflow Commands`));
         console.log(chalk.gray('────────────────────────────────────────'));
 
         console.log(chalk.yellow('\n ⭐ Support the project:'));
@@ -303,7 +308,7 @@ const program = new Command();
 program
     .name('ag-marketing-kit')
     .description('CLI tool to install and manage Antigravity Marketing Kit')
-    .version('1.0.0', '-v, --version', 'Display version number');
+    .version('1.0.14', '-v, --version', 'Display version number');
 
 // Command: init
 program

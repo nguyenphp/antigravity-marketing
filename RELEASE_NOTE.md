@@ -1,3 +1,15 @@
+# Release v1.0.14 - The "Unified Precision" Update 🎯
+
+This update focuses on synchronizing all skill, agent, and workflow counts across the CLI, Documentation, and Marketing Website to ensure a consistent and professional experience.
+
+## ✨ Improvements
+- **Synchronized Counts**: All mentions of "41+ Skills", "4 Agents", and "4 Workflows" are now managed via central constants in the codebase.
+- **CLI Consistency**: The `ag-marketing-kit init` and `status` commands now reflect the upgraded skill set.
+- **Website Fixes**: Resolved hardcoded "25" counts in the feature grid for all languages.
+- **Dynamic Versioning**: CLI versioning is now synchronized with the npm package version.
+
+---
+
 # Release v1.0.13 - The "Awesome Growth" Update 🌌
 
 We are thrilled to announce a massive update to the Antigravity Marketing Kit! This release focuses on deepening our agentic intelligence by integrating high-value frameworks from the **Antigravity Awesome Skills** repository.

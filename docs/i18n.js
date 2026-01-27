@@ -1,4 +1,8 @@
-// i18n translations
+// i18n translations constants for easy updates
+const SKILL_COUNT = "41+";
+const AGENT_COUNT = "4";
+const WORKFLOW_COUNT = "4";
+
 const translations = {
     en: {
         // Navigation
@@ -10,7 +14,7 @@ const translations = {
         "hero.badge": "🎯 Marketing Skills for AI Agents",
         "hero.title1": "Antigravity",
         "hero.title2": "Marketing Kit",
-        "hero.subtitle": "41+ marketing skills, 4 agents, and 4 workflows. Supercharge your AI-powered marketing with one command.",
+        "hero.subtitle": `${SKILL_COUNT} marketing skills, ${AGENT_COUNT} agents, and ${WORKFLOW_COUNT} workflows. Supercharge your AI-powered marketing with one command.`,
         "hero.getStarted": "Get Started",
         "hero.viewGithub": "View on GitHub",
         "hero.skills": "Skills",
@@ -22,9 +26,9 @@ const translations = {
         "features.subtitle": "Everything you need to supercharge your AI marketing workflow",
         "features.skills.title": "25 Marketing Skills",
         "features.skills.desc": "Content, SEO, social media, email, PPC, growth hacking, and more. All optimized for marketing excellence.",
-        "features.agents.title": "4 Specialized Agents",
+        "features.agents.title": `${AGENT_COUNT} Specialized Agents`,
         "features.agents.desc": "Marketing strategist, content creator, growth specialist, and analytics expert ready to assist.",
-        "features.workflows.title": "4 Workflow Commands",
+        "features.workflows.title": `${WORKFLOW_COUNT} Workflow Commands`,
         "features.workflows.desc": "Campaign creation, content writing, analytics, and optimization workflows at your fingertips.",
         "features.easy.title": "One Command Install",
         "features.easy.desc": "Get started in seconds with npx. No complex setup required.",
@@ -36,7 +40,7 @@ const translations = {
         "showcase.subtitle": "programmatic video production power inherited from Remotion Skills.",
 
         // Skills
-        "skills.title": "All 41+ Skills",
+        "skills.title": `All ${SKILL_COUNT} Skills`,
         "skills.subtitle": "Click any skill to see what it can do for you",
         "skills.content": "Content & Creative",
         "skills.growth": "Growth & Acquisition",
@@ -442,7 +446,7 @@ const translations = {
         "hero.badge": "🎯 Marketing Skills cho AI Agents",
         "hero.title1": "Antigravity",
         "hero.title2": "Marketing Kit",
-        "hero.subtitle": "41+ marketing skills, 4 agents, và 4 workflows. Nâng cấp marketing AI của bạn chỉ với một lệnh.",
+        "hero.subtitle": `${SKILL_COUNT} marketing skills, ${AGENT_COUNT} agents, và ${WORKFLOW_COUNT} workflows. Nâng cấp marketing AI của bạn chỉ với một lệnh.`,
         "hero.getStarted": "Bắt đầu ngay",
         "hero.viewGithub": "Xem trên GitHub",
         "hero.skills": "Skills",
@@ -454,9 +458,9 @@ const translations = {
         "features.subtitle": "Tất cả những gì bạn cần để nâng cấp quy trình marketing AI",
         "features.skills.title": "25 Marketing Skills",
         "features.skills.desc": "Content, SEO, social media, email, PPC, growth hacking, và nhiều hơn nữa. Tất cả tối ưu cho marketing.",
-        "features.agents.title": "4 Agents Chuyên Biệt",
+        "features.agents.title": `${AGENT_COUNT} Agents Chuyên Biệt`,
         "features.agents.desc": "Marketing strategist, content creator, growth specialist, và analytics expert sẵn sàng hỗ trợ.",
-        "features.workflows.title": "4 Workflow Commands",
+        "features.workflows.title": `${WORKFLOW_COUNT} Workflow Commands`,
         "features.workflows.desc": "Quy trình tạo campaign, viết content, analytics, và tối ưu hóa trong tầm tay.",
         "features.easy.title": "Cài đặt một lệnh",
         "features.easy.desc": "Bắt đầu trong vài giây với npx. Không cần setup phức tạp.",
@@ -468,7 +472,7 @@ const translations = {
         "showcase.subtitle": "Sức mạnh sản xuất video tự động kế thừa từ Remotion Skills.",
 
         // Skills
-        "skills.title": "Tất cả 41+ Kỹ năng",
+        "skills.title": `Tất cả ${SKILL_COUNT} Kỹ năng`,
         "skills.subtitle": "Click vào skill để xem chi tiết",
         "skills.content": "Content & Sáng tạo",
         "skills.growth": "Growth & Acquisition",

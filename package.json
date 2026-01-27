@@ -1,6 +1,6 @@
 {
   "name": "@nguyenphp/antigravity-marketing",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Marketing-focused AI agent skills kit for Gemini CLI",
   "main": "bin/index.js",
   "type": "module",
