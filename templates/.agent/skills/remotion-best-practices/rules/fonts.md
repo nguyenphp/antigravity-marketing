@@ -2,14 +2,19 @@
 name: fonts
 description: Loading Google Fonts and local fonts in Remotion
 metadata:
-  tags: fonts, google-fonts, typography, local-fonts
+  tags: fonts, google-fonts, typography, text
 ---
 
 # Using fonts in Remotion
 
-## Google Fonts
+## Google Fonts with @remotion/google-fonts
 
-First, install the `@remotion/google-fonts` package:
+The recommended way to use Google Fonts. It's type-safe and automatically blocks rendering until the font is ready.
+
+### Prerequisites
+
+First, the @remotion/google-fonts package needs to be installed.
+If it is not installed, use the following command:
 
 ```bash
 npx remotion add @remotion/google-fonts # If project uses npm
@@ -18,93 +23,130 @@ yarn remotion add @remotion/google-fonts # If project uses yarn
 pnpm exec remotion add @remotion/google-fonts # If project uses pnpm
 ```
 
-Import and load the font at the top of your composition:
-
 ```tsx
-import { loadFont } from "@remotion/google-fonts/Inter";
+import { loadFont } from "@remotion/google-fonts/Lobster";
 
 const { fontFamily } = loadFont();
 
 export const MyComposition = () => {
-  return (
-    <div style={{ fontFamily }}>
-      Hello World
-    </div>
-  );
+  return <div style={{ fontFamily }}>Hello World</div>;
 };
 ```
 
-### Loading specific font weights
+Preferrably, specify only needed weights and subsets to reduce file size:
 
 ```tsx
-import { loadFont } from "@remotion/google-fonts/Inter";
+import { loadFont } from "@remotion/google-fonts/Roboto";
 
 const { fontFamily } = loadFont("normal", {
   weights: ["400", "700"],
+  subsets: ["latin"],
 });
 ```
 
-### Loading multiple fonts
+### Waiting for font to load
+
+Use `waitUntilDone()` if you need to know when the font is ready:
 
 ```tsx
-import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
-import { loadFont as loadRoboto } from "@remotion/google-fonts/Roboto";
+import { loadFont } from "@remotion/google-fonts/Lobster";
 
-const { fontFamily: inter } = loadInter();
-const { fontFamily: roboto } = loadRoboto();
+const { fontFamily, waitUntilDone } = loadFont();
+
+await waitUntilDone();
 ```
 
-## Local Fonts
+## Local fonts with @remotion/fonts
 
-Place font files in the `public/` folder and use CSS `@font-face`:
+For local font files, use the `@remotion/fonts` package.
+
+### Prerequisites
+
+First, install @remotion/fonts:
+
+```bash
+npx remotion add @remotion/fonts # If project uses npm
+bunx remotion add @remotion/fonts # If project uses bun
+yarn remotion add @remotion/fonts # If project uses yarn
+pnpm exec remotion add @remotion/fonts # If project uses pnpm
+```
+
+### Loading a local font
+
+Place your font file in the `public/` folder and use `loadFont()`:
 
 ```tsx
+import { loadFont } from "@remotion/fonts";
 import { staticFile } from "remotion";
 
-const fontFace = `
-@font-face {
-  font-family: 'BeVietnamPro';
-  src: url('${staticFile("fonts/BeVietnamPro-Regular.ttf")}') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'BeVietnamPro';
-  src: url('${staticFile("fonts/BeVietnamPro-Bold.ttf")}') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-`;
+await loadFont({
+  family: "MyFont",
+  url: staticFile("MyFont-Regular.woff2"),
+});
 
 export const MyComposition = () => {
-  return (
-    <>
-      <style>{fontFace}</style>
-      <div style={{ fontFamily: "BeVietnamPro" }}>
-        Xin chào Việt Nam
-      </div>
-    </>
-  );
+  return <div style={{ fontFamily: "MyFont" }}>Hello World</div>;
 };
 ```
 
-## Vietnamese Font Recommendations
+### Loading multiple weights
 
-For Vietnamese text support, use these Google Fonts:
+Load each weight separately with the same family name:
 
 ```tsx
-// Option 1: Be Vietnam Pro (modern, professional)
-import { loadFont } from "@remotion/google-fonts/BeVietnamPro";
+import { loadFont } from "@remotion/fonts";
+import { staticFile } from "remotion";
 
-// Option 2: Montserrat (geometric, clean)
-import { loadFont } from "@remotion/google-fonts/Montserrat";
-
-// Option 3: Inter (neutral, works well with Vietnamese diacritics)
-import { loadFont } from "@remotion/google-fonts/Inter";
+await Promise.all([
+  loadFont({
+    family: "Inter",
+    url: staticFile("Inter-Regular.woff2"),
+    weight: "400",
+  }),
+  loadFont({
+    family: "Inter",
+    url: staticFile("Inter-Bold.woff2"),
+    weight: "700",
+  }),
+]);
 ```
 
-## Important notes
+### Available options
 
-- Always use `loadFont()` before rendering - fonts must be loaded synchronously
-- Google Fonts are automatically subsetted for performance
-- For custom fonts, ensure all font weights and styles are loaded
+```tsx
+loadFont({
+  family: "MyFont", // Required: name to use in CSS
+  url: staticFile("font.woff2"), // Required: font file URL
+  format: "woff2", // Optional: auto-detected from extension
+  weight: "400", // Optional: font weight
+  style: "normal", // Optional: normal or italic
+  display: "block", // Optional: font-display behavior
+});
+```
+
+## Using in components
+
+Call `loadFont()` at the top level of your component or in a separate file that's imported early:
+
+```tsx
+import { loadFont } from "@remotion/google-fonts/Montserrat";
+
+const { fontFamily } = loadFont("normal", {
+  weights: ["400", "700"],
+  subsets: ["latin"],
+});
+
+export const Title: React.FC<{ text: string }> = ({ text }) => {
+  return (
+    <h1
+      style={{
+        fontFamily,
+        fontSize: 80,
+        fontWeight: "bold",
+      }}
+    >
+      {text}
+    </h1>
+  );
+};
+```

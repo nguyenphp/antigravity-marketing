@@ -18,9 +18,9 @@ const AGENT_FOLDER = '.agent';
 const TEMP_FOLDER = '.temp_ag_marketing_kit';
 
 // Skill counts for synchronization
-const SKILL_COUNT = '41+';
-const AGENT_COUNT = '4';
-const WORKFLOW_COUNT = '4';
+const SKILL_COUNT = '66+';
+const AGENT_COUNT = '20';
+const WORKFLOW_COUNT = '15';
 
 // ============================================================================
 // UTILITIES
@@ -330,7 +330,7 @@ const program = new Command();
 program
     .name('ag-marketing-kit')
     .description('CLI tool to install and manage Antigravity Marketing Kit')
-    .version('1.0.15', '-v, --version', 'Display version number');
+    .version('1.0.17', '-v, --version', 'Display version number');
 
 // Command: init
 program

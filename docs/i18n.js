@@ -1,7 +1,7 @@
 // i18n translations constants for easy updates
-const SKILL_COUNT = "41+";
-const AGENT_COUNT = "4";
-const WORKFLOW_COUNT = "4";
+const SKILL_COUNT = "66+";
+const AGENT_COUNT = "20";
+const WORKFLOW_COUNT = "15";
 
 const translations = {
     en: {
@@ -24,7 +24,7 @@ const translations = {
         // Features
         "features.title": "Why Antigravity Marketing?",
         "features.subtitle": "Everything you need to supercharge your AI marketing workflow",
-        "features.skills.title": "25 Marketing Skills",
+        "features.skills.title": `${SKILL_COUNT} Marketing Skills`,
         "features.skills.desc": "Content, SEO, social media, email, PPC, growth hacking, and more. All optimized for marketing excellence.",
         "features.agents.title": `${AGENT_COUNT} Specialized Agents`,
         "features.agents.desc": "Marketing strategist, content creator, growth specialist, and analytics expert ready to assist.",
@@ -456,7 +456,7 @@ const translations = {
         // Features
         "features.title": "Tại sao chọn Antigravity Marketing?",
         "features.subtitle": "Tất cả những gì bạn cần để nâng cấp quy trình marketing AI",
-        "features.skills.title": "25 Marketing Skills",
+        "features.skills.title": `${SKILL_COUNT} Marketing Skills`,
         "features.skills.desc": "Content, SEO, social media, email, PPC, growth hacking, và nhiều hơn nữa. Tất cả tối ưu cho marketing.",
         "features.agents.title": `${AGENT_COUNT} Agents Chuyên Biệt`,
         "features.agents.desc": "Marketing strategist, content creator, growth specialist, và analytics expert sẵn sàng hỗ trợ.",

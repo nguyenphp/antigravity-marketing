@@ -3,7 +3,7 @@
 
   # 🚀 Antigravity Marketing Kit
 
-  > **41+ specialized marketing skills, 4 expert agents, and 4 streamlined workflows.**
+  > **66+ specialized marketing skills, 20 expert agents, and 15 streamlined workflows.**
   > Your ultimate AI-powered marketing command center for the Gemini CLI.
 
   [![npm version](https://img.shields.io/npm/v/@nguyenphp/antigravity-marketing.svg?style=flat-square&color=cb3837)](https://www.npmjs.com/package/@nguyenphp/antigravity-marketing)
@@ -26,9 +26,9 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 > **Built on the shoulders of giants.** Based on [Antigravity Kit](https://github.com/vudovn/antigravity-kit), the definitive framework for AI agent skills.
 
 ### Why Antigravity?
-- **🧠 Domain Expertise**: 41+ skills covering the entire marketing spectrum.
-- **🤖 Specialized Agents**: Content, Growth, Strategy, and Analytics experts at your service.
-- **🔄 Proven Workflows**: Turn complex tasks into simple commands.
+- **🧠 Domain Expertise**: 66+ skills covering the entire marketing spectrum.
+- **🤖 Specialized Agents**: 20 experts covering Content, Growth, Strategy, Analytics, and specialized domains.
+- **🔄 Proven Workflows**: 15 workflows to turn complex tasks into simple commands.
 - **🎬 Video Automation**: Programmatic high-fidelity marketing videos via Remotion.
 
 ---
@@ -41,7 +41,7 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 |:---:|:---:|
 | <video src="https://github.com/nguyenphp/antigravity-marketing/raw/main/docs/assets/videos/antigravity-promo-169.mp4" width="100%" controls></video> | <video src="https://github.com/nguyenphp/antigravity-marketing/raw/main/docs/assets/videos/antigravity-promo-916.mp4" width="100%" controls></video> |
 
-## 🧠 Skills (41+)
+## 🧠 Skills (66+)
 
 ### Content & Creative
 | Skill | Description |
@@ -53,6 +53,8 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `content-repurposing` | Transform content into multiple formats |
 | `marketing-ideas` | **Brainstormer for creative SaaS campaigns** |
 | `marketing-psychology` | **Behavioral economics & growth triggers** |
+| `copywriting` | **High-converting text principles & PAS/BAB frameworks** |
+| `growth-engine` | **Complete growth strategy & acquisition engine** |
 
 ### Growth & Acquisition
 | Skill | Description |
@@ -109,6 +111,9 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `tailwind-patterns` | Utility-first CSS patterns |
 | `documentation-templates` | Marketing documentation templates |
 | `remotion-best-practices` | **Official Remotion video production rules** |
+| `banner-design` | **Specialized marketing banner design intelligence** |
+| `brand` | **Brand consistency & visual identity system** |
+| `ui-styling` | **Advanced UI component styling & token generation** |
 | `brand-guidelines-anthropic`| **Official Anthropic look & feel** |
 | `brand-guidelines-community`| **Modern community styling presets** |
 
