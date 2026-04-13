@@ -225,6 +225,7 @@ This project is built upon and includes skills from:
 - 🎨 **[UI UX Pro Max](https://ui-ux-pro-max-skill.nextlevelbuilder.io/)** - Design intelligence skills (`ui-ux-pro-max`, `frontend-design`, `tailwind-patterns`)
 - 🛠️ **[ClaudeKit](https://claudekit.cc/)** - Production-ready skills (`seo-fundamentals`, `documentation-templates`)
 - 🎬 **[Remotion Dev Skills](https://github.com/remotion-dev/skills)** - Official Remotion best practices (`remotion-best-practices`)
+- 📄 **[MiniMax AI Skills](https://github.com/MiniMax-AI/skills)** - High-fidelity document generation engine (`minimax-pdf`, `minimax-docx`, `minimax-xlsx`, `pptx-generator`, `minimax-multimodal-toolkit`, `vision-analysis`, `tutorial-video-expert`)
 
 ## 📄 License
 
