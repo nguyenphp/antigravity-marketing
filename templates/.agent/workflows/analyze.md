@@ -73,6 +73,7 @@ Create actionable report:
 2. **Performance**: Metrics vs goals
 3. **Insights**: Why it happened
 4. **Recommendations**: What to do next
+5. **High-Fidelity PDF**: Use `minimax-pdf` to generate a professional, print-ready report for stakeholders.
 
 ## Output
 
@@ -80,9 +81,11 @@ Create actionable report:
 - Dashboard updates
 - Action items
 - Test hypotheses
+- **Professional PDF Report** (via `/report`)
 
 ## Skills Used
 
 - analytics-marketing
 - growth-hacking
 - conversion-optimization
+- minimax-pdf
