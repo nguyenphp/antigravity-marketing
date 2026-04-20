@@ -3,7 +3,7 @@
 
   # 🚀 Antigravity Marketing Kit
 
-  > **90 specialized skills, 20 expert agents, and 17 streamlined workflows.**
+  > **60 specialized skills, 10 expert agents, and 13 streamlined workflows.**
   > Your ultimate AI-powered marketing command center for the Gemini CLI.
 
   [![npm version](https://img.shields.io/npm/v/@nguyenphp/antigravity-marketing.svg)](https://www.npmjs.com/package/@nguyenphp/antigravity-marketing)
@@ -23,9 +23,9 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 > **Built on the shoulders of giants.** Based on [Antigravity Kit](https://github.com/vudovn/antigravity-kit), the definitive framework for AI agent skills.
 
 ### Why Antigravity?
-- **🧠 Domain Expertise**: 90 skills covering the entire marketing spectrum.
-- **🤖 Specialized Agents**: 20 experts covering Content, Growth, Strategy, Analytics, and specialized domains.
-- **🔄 Proven Workflows**: 17 workflows to turn complex tasks into simple commands.
+- **🧠 Domain Expertise**: 60 skills covering the entire marketing spectrum.
+- **🤖 Specialized Agents**: 10 experts covering Content, Growth, Strategy, Analytics, and specialized domains.
+- **🔄 Proven Workflows**: 13 workflows to turn complex tasks into simple commands.
 - **📄 MiniMax Document Engine**: High-fidelity PDF, DOCX, XLSX, PPTX generation with professional brand styling.
 - **🎬 Video Automation**: Programmatic high-fidelity marketing videos via Remotion.
 - **📊 Professional Reporting**: AI-driven brand-styled reports with Vietnamese Unicode support.
@@ -44,7 +44,7 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 
 ---
 
-## 🧠 Skills (90)
+## 🧠 Skills (60)
 
 ### ⭐ Highlight: Reporting & Document Engine (MiniMax)
 | Skill | Description | Doc |
@@ -145,49 +145,7 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `mobile-design` | Mobile-first responsive design patterns | [Doc](templates/.agent/skills/mobile-design/SKILL.md) |
 | `documentation-templates` | Marketing documentation templates | [Doc](templates/.agent/skills/documentation-templates/SKILL.md) |
 
-### Development & Engineering
-| Skill | Description | Doc |
-|-------|-------------|-----|
-| `api-patterns` | API design patterns & best practices | [Doc](templates/.agent/skills/api-patterns/SKILL.md) |
-| `app-builder` | Full-stack application builder | [Doc](templates/.agent/skills/app-builder/SKILL.md) |
-| `architecture` | Software architecture patterns | [Doc](templates/.agent/skills/architecture/SKILL.md) |
-| `clean-code` | Clean code principles & refactoring | [Doc](templates/.agent/skills/clean-code/SKILL.md) |
-| `code-review-checklist` | Comprehensive code review checklist | [Doc](templates/.agent/skills/code-review-checklist/SKILL.md) |
-| `database-design` | Database schema design & optimization | [Doc](templates/.agent/skills/database-design/SKILL.md) |
-| `docker-expert` | Docker containerization best practices | [Doc](templates/.agent/skills/docker-expert/SKILL.md) |
-| `nestjs-expert` | NestJS framework expertise | [Doc](templates/.agent/skills/nestjs-expert/SKILL.md) |
-| `nextjs-best-practices` | Next.js best practices & patterns | [Doc](templates/.agent/skills/nextjs-best-practices/SKILL.md) |
-| `nodejs-best-practices` | Node.js production best practices | [Doc](templates/.agent/skills/nodejs-best-practices/SKILL.md) |
-| `prisma-expert` | Prisma ORM patterns & optimization | [Doc](templates/.agent/skills/prisma-expert/SKILL.md) |
-| `python-patterns` | Python design patterns & best practices | [Doc](templates/.agent/skills/python-patterns/SKILL.md) |
-| `react-patterns` | React component patterns & hooks | [Doc](templates/.agent/skills/react-patterns/SKILL.md) |
-| `typescript-expert` | TypeScript advanced techniques | [Doc](templates/.agent/skills/typescript-expert/SKILL.md) |
-| `vue-expert` | Vue.js framework expertise | [Doc](templates/.agent/skills/vue-expert/SKILL.md) |
-
-### DevOps & Infrastructure
-| Skill | Description | Doc |
-|-------|-------------|-----|
-| `bash-linux` | Shell scripting & Linux administration | [Doc](templates/.agent/skills/bash-linux/SKILL.md) |
-| `powershell-windows` | PowerShell scripting for Windows | [Doc](templates/.agent/skills/powershell-windows/SKILL.md) |
-| `deployment-procedures` | Production deployment strategies | [Doc](templates/.agent/skills/deployment-procedures/SKILL.md) |
-| `server-management` | Server administration & monitoring | [Doc](templates/.agent/skills/server-management/SKILL.md) |
-| `performance-profiling` | Application performance profiling | [Doc](templates/.agent/skills/performance-profiling/SKILL.md) |
-
-### Testing & Security
-| Skill | Description | Doc |
-|-------|-------------|-----|
-| `tdd-workflow` | Test-driven development workflow | [Doc](templates/.agent/skills/tdd-workflow/SKILL.md) |
-| `testing-patterns` | Testing patterns & strategies | [Doc](templates/.agent/skills/testing-patterns/SKILL.md) |
-| `webapp-testing` | Web application testing automation | [Doc](templates/.agent/skills/webapp-testing/SKILL.md) |
-| `lint-and-validate` | Code linting & validation automation | [Doc](templates/.agent/skills/lint-and-validate/SKILL.md) |
-| `red-team-tactics` | Security red team assessment tactics | [Doc](templates/.agent/skills/red-team-tactics/SKILL.md) |
-| `vulnerability-scanner` | Automated vulnerability scanning | [Doc](templates/.agent/skills/vulnerability-scanner/SKILL.md) |
-
-### Agent & Workflow Tools
-| Skill | Description | Doc |
-|-------|-------------|-----|
 | `behavioral-modes` | AI agent behavioral mode management | [Doc](templates/.agent/skills/behavioral-modes/SKILL.md) |
-| `mcp-builder` | MCP server builder toolkit | [Doc](templates/.agent/skills/mcp-builder/SKILL.md) |
 | `parallel-agents` | Multi-agent parallel execution patterns | [Doc](templates/.agent/skills/parallel-agents/SKILL.md) |
 | `plan-writing` | Structured planning & documentation | [Doc](templates/.agent/skills/plan-writing/SKILL.md) |
 | `systematic-debugging` | Systematic debugging methodology | [Doc](templates/.agent/skills/systematic-debugging/SKILL.md) |
@@ -202,18 +160,8 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `growth-specialist` | Growth hacking specialist |
 | `analytics-specialist` | Data analysis and insights |
 | `seo-specialist` | SEO optimization expert |
-| `frontend-specialist` | Frontend development expert |
-| `backend-specialist` | Backend development expert |
-| `database-architect` | Database design & optimization |
-| `devops-engineer` | DevOps and deployment automation |
-| `mobile-developer` | Mobile application development |
-| `test-engineer` | Testing & QA automation |
-| `security-auditor` | Security assessment & auditing |
-| `penetration-tester` | Security penetration testing |
 | `performance-optimizer` | Performance optimization expert |
 | `documentation-writer` | Technical documentation specialist |
-| `game-developer` | Game development specialist |
-| `debugger` | Systematic debugging expert |
 | `explorer-agent` | Codebase exploration & analysis |
 | `orchestrator` | Multi-agent orchestration |
 | `project-planner` | Project planning & management |
@@ -230,14 +178,10 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `/brand-report` | **🎨 AI-driven brand style cloning & reporting** |
 | `/brainstorm` | Creative ideation sessions |
 | `/create` | General creation workflow |
-| `/debug` | Systematic debugging workflow |
-| `/deploy` | Production deployment workflow |
-| `/enhance` | Code enhancement & refactoring |
 | `/orchestrate` | Multi-agent orchestration |
 | `/plan` | Structured planning workflow |
 | `/preview` | Preview & review workflow |
 | `/status` | Project status assessment |
-| `/test` | Testing automation workflow |
 | `/ui-ux-pro-max` | Design intelligence workflow |
 
 ## 📦 Installation

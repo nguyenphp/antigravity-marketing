@@ -1,3 +1,21 @@
+# Release v1.0.20 - The "Marketing Purity" Update 🌌
+
+This update marks a major turning point for the kit. We've removed all the "technical noise" (DevOps, Infrastructure, Security scanning) that often cluttered the marketing workflow. The result is a hyper-focused, elite toolkit for marketing professionals.
+
+## 🚀 Key Highlights
+
+### 1. 100% Marketing Focus
+We've pruned 31 technical skills to ensure the kit stays true to its name. You now have a concentrated set of 60 high-impact marketing skills.
+
+### 2. Streamlined Agents & Workflows
+The agent roster has been narrowed to 10 essential roles, and workflows are now focused on core marketing procedures like campaigns, reports, and brainstorming.
+
+## ✨ Improvements
+- **Cleaner Installation**: The `.agent` folder is now lighter and more relevant.
+- **Refined Website**: Better categorization and updated statistics.
+
+---
+
 # Release v1.0.19 - The "Grand Orchestration" Update 🌌
 
 This landmark update finally bridges the gap between our core architecture and the full breadth of Antigravity Marketing intelligence. We've synchronized the kit to include all 90+ skills, 20 agents, and 17 workflows.

@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.20] - 2026-04-20
+
+### Removed
+- **Major Technical Cleanup**: Removed 31 non-marketing skills (Docker, DevOps, NestJS, Security, etc.) to refocus the kit exclusively on Marketing capabilities.
+- **Narrowed Agent Base**: Reduced total agent count to **10 specialized marketing experts**.
+- **Streamlined Workflows**: Removed 4 technical workflows (`/debug`, `/deploy`, `/test`, `/enhance`).
+
+### Changed
+- **New Capability Counts**: Synchronized all documentation to reflect the refined **60 Skills, 10 Agents, 13 Workflows** architecture.
+- **UI Refresh**: Renamed "Design & Development" category to "Design & UI/UX" on the website.
+
 ## [1.0.19] - 2026-04-18
 
 ### Added

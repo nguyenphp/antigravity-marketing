@@ -1,7 +1,7 @@
 // i18n translations constants for easy updates
-const SKILL_COUNT = "90+";
-const AGENT_COUNT = "20";
-const WORKFLOW_COUNT = "17";
+const SKILL_COUNT = "60";
+const AGENT_COUNT = "10";
+const WORKFLOW_COUNT = "13";
 
 const translations = {
     en: {
@@ -48,7 +48,7 @@ const translations = {
         "skills.optimization": "Optimization & Analytics",
         "skills.ads": "Ads & Creative",
         "skills.competitor": "Competitor Intelligence",
-        "skills.design": "Design & Development",
+        "skills.design": "Design & UI/UX",
         "skills.reporting": "Reporting & Document Engine",
         "skills.video": "Video & Visual Production",
 
@@ -608,7 +608,7 @@ const translations = {
         "skills.optimization": "Tối ưu & Analytics",
         "skills.ads": "Ads & Creative",
         "skills.competitor": "Competitor Intelligence",
-        "skills.design": "Thiết kế & Phát triển",
+        "skills.design": "Thiết kế & UI/UX",
         "skills.reporting": "Báo cáo & Tài liệu (MiniMax)",
         "skills.video": "Sản xuất Video & Hình ảnh",
 
