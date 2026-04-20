@@ -3,7 +3,7 @@
 
   # 🚀 Antigravity Marketing Kit
 
-  > **33 specialized marketing skills, 4 expert agents, and 5 streamlined workflows.**
+  > **90 specialized skills, 20 expert agents, and 17 streamlined workflows.**
   > Your ultimate AI-powered marketing command center for the Gemini CLI.
 
   [![npm version](https://img.shields.io/npm/v/@nguyenphp/antigravity-marketing.svg)](https://www.npmjs.com/package/@nguyenphp/antigravity-marketing)
@@ -23,12 +23,14 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 > **Built on the shoulders of giants.** Based on [Antigravity Kit](https://github.com/vudovn/antigravity-kit), the definitive framework for AI agent skills.
 
 ### Why Antigravity?
-- **🧠 Domain Expertise**: 33 skills covering the entire marketing spectrum.
-- **🤖 Specialized Agents**: Content, Growth, Strategy, and Analytics experts at your service.
-- **🔄 Proven Workflows**: Turn complex tasks into simple commands.
+- **🧠 Domain Expertise**: 90 skills covering the entire marketing spectrum.
+- **🤖 Specialized Agents**: 20 experts covering Content, Growth, Strategy, Analytics, and specialized domains.
+- **🔄 Proven Workflows**: 17 workflows to turn complex tasks into simple commands.
+- **📄 MiniMax Document Engine**: High-fidelity PDF, DOCX, XLSX, PPTX generation with professional brand styling.
+- **🎬 Video Automation**: Programmatic high-fidelity marketing videos via Remotion.
+- **📊 Professional Reporting**: AI-driven brand-styled reports with Vietnamese Unicode support.
 - **🇻🇳 Vietnamese Ready**: Full Unicode support for professional local reporting.
 - **🎨 Brand Cloning**: Extract branding from any URL and apply to reports instantly.
-- **🎬 Video Automation**: Programmatic high-fidelity marketing videos via Remotion.
 
 ---
 
@@ -40,41 +42,64 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 |:---:|:---:|
 | <video src="https://github.com/nguyenphp/antigravity-marketing/raw/main/docs/assets/videos/antigravity-promo-169.mp4" width="100%" controls></video> | <video src="https://github.com/nguyenphp/antigravity-marketing/raw/main/docs/assets/videos/antigravity-promo-916.mp4" width="100%" controls></video> |
 
-## 🧠 Skills (34)
+---
+
+## 🧠 Skills (90)
+
+### ⭐ Highlight: Reporting & Document Engine (MiniMax)
+| Skill | Description | Doc |
+|-------|-------------|-----|
+| `marketing-report-expert` | **🏆 Master orchestrator for professional reporting & brand-styled design** | [Doc](templates/.agent/skills/marketing-report-expert/SKILL.md) |
+| `minimax-pdf` | **📄 High-fidelity PDF generation from HTML/Markdown** | [Doc](templates/.agent/skills/minimax-pdf/SKILL.md) |
+| `minimax-docx` | **📝 Professional Word document generation** | [Doc](templates/.agent/skills/minimax-docx/SKILL.md) |
+| `minimax-xlsx` | **📊 Advanced Excel automation and data analysis** | [Doc](templates/.agent/skills/minimax-xlsx/SKILL.md) |
+| `pptx-generator` | **🎭 Professional PowerPoint presentation generation** | [Doc](templates/.agent/skills/pptx-generator/SKILL.md) |
+| `minimax-multimodal-toolkit` | **🔧 General purpose multimodal document toolkit** | [Doc](templates/.agent/skills/minimax-multimodal-toolkit/SKILL.md) |
+| `frontend-slides` | **🖼️ Web-based interactive presentation engine** | [Doc](templates/.agent/skills/frontend-slides/SKILL.md) |
+
+### ⭐ Highlight: Video & Visual Production
+| Skill | Description | Doc |
+|-------|-------------|-----|
+| `video-automation` | **🎬 Automated marketing videos via Remotion** | [Doc](templates/.agent/skills/video-automation/SKILL.md) |
+| `video-marketing` | **📹 Video strategy, YouTube SEO, short-form content** | [Doc](templates/.agent/skills/video-marketing/SKILL.md) |
+| `tutorial-video-expert` | **🎓 Professional tutorial video creation** | [Doc](templates/.agent/skills/tutorial-video-expert/SKILL.md) |
+| `remotion-best-practices` | **🎬 Official Remotion video production rules** | [Doc](templates/.agent/skills/remotion-best-practices/SKILL.md) |
+| `vision-analysis` | **👁️ AI-powered image and ad creative analysis** | [Doc](templates/.agent/skills/vision-analysis/SKILL.md) |
+| `banner-design` | **🖼️ Specialized marketing banner design intelligence** | [Doc](templates/.agent/skills/banner-design/SKILL.md) |
 
 ### Marketing Strategy & Coordination
 | Skill | Description | Doc |
 |-------|-------------|-----|
-| `marketing-report-expert` | **Master orchestrator for professional reporting & design** | [Doc](templates/.agent/skills/marketing-report-expert/SKILL.md) |
 | `marketing-strategist` | Overall marketing strategy orchestrator | [Doc](templates/.agent/skills/marketing-strategist/SKILL.md) |
-
-### Reporting & Documents (MiniMax Engine)
-| Skill | Description | Doc |
-|-------|-------------|-----|
-| `minimax-pdf` | **High-fidelity PDF generation from HTML/Markdown** | [Doc](templates/.agent/skills/minimax-pdf/SKILL.md) |
-| `minimax-docx` | Professional Word document generation | [Doc](templates/.agent/skills/minimax-docx/SKILL.md) |
-| `minimax-xlsx` | Advanced Excel automation and data analysis | [Doc](templates/.agent/skills/minimax-xlsx/SKILL.md) |
-| `pptx-generator` | Professional PowerPoint presentation generation | [Doc](templates/.agent/skills/pptx-generator/SKILL.md) |
-| `minimax-multimodal-toolkit` | General purpose multimodal toolkit | [Doc](templates/.agent/skills/minimax-multimodal-toolkit/SKILL.md) |
+| `marketing-ideas` | Brainstormer for creative SaaS campaigns | [Doc](templates/.agent/skills/marketing-ideas/SKILL.md) |
+| `marketing-psychology` | Behavioral economics & growth triggers | [Doc](templates/.agent/skills/marketing-psychology/SKILL.md) |
+| `brainstorming` | Creative ideation and mind-mapping | [Doc](templates/.agent/skills/brainstorming/SKILL.md) |
 
 ### Content & Creative
 | Skill | Description | Doc |
 |-------|-------------|-----|
 | `content-marketing` | Content strategy, copywriting, storytelling | [Doc](templates/.agent/skills/content-marketing/SKILL.md) |
 | `branding-expert` | Brand identity, voice & tone, style guides | [Doc](templates/.agent/skills/branding-expert/SKILL.md) |
-| `video-marketing` | Video strategy, YouTube SEO, short-form content | [Doc](templates/.agent/skills/video-marketing/SKILL.md) |
-| `video-automation` | **Automated marketing videos via Remotion** | [Doc](templates/.agent/skills/video-automation/SKILL.md) |
 | `content-repurposing` | Transform content into multiple formats | [Doc](templates/.agent/skills/content-repurposing/SKILL.md) |
-| `tutorial-video-expert` | Professional tutorial video creation | [Doc](templates/.agent/skills/tutorial-video-expert/SKILL.md) |
+| `copywriting` | High-converting text principles & PAS/BAB frameworks | [Doc](templates/.agent/skills/copywriting/SKILL.md) |
+| `brand` | Brand consistency & visual identity system | [Doc](templates/.agent/skills/brand/SKILL.md) |
+| `brand-guidelines-anthropic` | Official Anthropic look & feel | [Doc](templates/.agent/skills/brand-guidelines-anthropic/SKILL.md) |
+| `brand-guidelines-community` | Modern community styling presets | [Doc](templates/.agent/skills/brand-guidelines-community/SKILL.md) |
 
 ### Growth & Acquisition
 | Skill | Description | Doc |
 |-------|-------------|-----|
 | `growth-hacking` | Viral loops, referral programs, AARRR framework | [Doc](templates/.agent/skills/growth-hacking/SKILL.md) |
+| `growth-engine` | Complete growth strategy & acquisition engine | [Doc](templates/.agent/skills/growth-engine/SKILL.md) |
 | `ppc-advertising` | Google Ads, Meta Ads, campaign optimization | [Doc](templates/.agent/skills/ppc-advertising/SKILL.md) |
 | `influencer-marketing` | Influencer outreach, KOL partnerships | [Doc](templates/.agent/skills/influencer-marketing/SKILL.md) |
 | `affiliate-marketing` | Affiliate programs, partner networks | [Doc](templates/.agent/skills/affiliate-marketing/SKILL.md) |
 | `lead-gen-scraper` | Lead generation, prospect research | [Doc](templates/.agent/skills/lead-gen-scraper/SKILL.md) |
+| `launch-strategy` | ORB framework for product launches | [Doc](templates/.agent/skills/launch-strategy/SKILL.md) |
+| `referral-program` | Viral growth loops & affiliate design | [Doc](templates/.agent/skills/referral-program/SKILL.md) |
+| `programmatic-seo` | Large-scale SEO automation strategy | [Doc](templates/.agent/skills/programmatic-seo/SKILL.md) |
+| `app-store-optimization` | ASO for App Store & Play Store | [Doc](templates/.agent/skills/app-store-optimization/SKILL.md) |
+| `viral-generator-builder` | Viral quiz & calculator engineering | [Doc](templates/.agent/skills/viral-generator-builder/SKILL.md) |
 
 ### Channels & Automation
 | Skill | Description | Doc |
@@ -82,6 +107,7 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `social-media-expert` | Platform strategies (FB, IG, TikTok, LinkedIn) | [Doc](templates/.agent/skills/social-media-expert/SKILL.md) |
 | `email-marketing` | Campaigns, sequences, automation, newsletters | [Doc](templates/.agent/skills/email-marketing/SKILL.md) |
 | `marketing-automation` | Lead nurturing, workflows, segmentation | [Doc](templates/.agent/skills/marketing-automation/SKILL.md) |
+| `i18n-localization` | Internationalization & localization strategies | [Doc](templates/.agent/skills/i18n-localization/SKILL.md) |
 
 ### Optimization & Analytics
 | Skill | Description | Doc |
@@ -91,21 +117,83 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `analytics-marketing` | KPIs, attribution, GA4, dashboards | [Doc](templates/.agent/skills/analytics-marketing/SKILL.md) |
 | `conversion-optimization` | CRO, A/B testing, landing pages | [Doc](templates/.agent/skills/conversion-optimization/SKILL.md) |
 | `ab-test-dashboard` | A/B test analysis, statistical significance | [Doc](templates/.agent/skills/ab-test-dashboard/SKILL.md) |
+| `onboarding-cro` | User activation & TTV optimization | [Doc](templates/.agent/skills/onboarding-cro/SKILL.md) |
+| `page-cro` | Landing page conversion diagnostics | [Doc](templates/.agent/skills/page-cro/SKILL.md) |
+| `popup-cro` | Engagement trigger optimization | [Doc](templates/.agent/skills/popup-cro/SKILL.md) |
+| `signup-flow-cro` | Registration friction reduction | [Doc](templates/.agent/skills/signup-flow-cro/SKILL.md) |
+| `paywall-upgrade-cro` | Monetization & upsell psychology | [Doc](templates/.agent/skills/paywall-upgrade-cro/SKILL.md) |
+| `pricing-strategy` | Value-based pricing & tier design | [Doc](templates/.agent/skills/pricing-strategy/SKILL.md) |
+| `geo-fundamentals` | Geo-targeting & location-based strategies | [Doc](templates/.agent/skills/geo-fundamentals/SKILL.md) |
 
-### Intelligence & Design
+### Ads & Creative
+| Skill | Description | Doc |
+|-------|-------------|-----|
+| `ad-creative-variations` | Mass ad copy variations for Meta/Google/TikTok | [Doc](templates/.agent/skills/ad-creative-variations/SKILL.md) |
+
+### Competitor Intelligence
 | Skill | Description | Doc |
 |-------|-------------|-----|
 | `competitor-teardown` | Analyze competitor websites, ads, strategies | [Doc](templates/.agent/skills/competitor-teardown/SKILL.md) |
 | `competitor-monitor` | Monitor competitor changes and alerts | [Doc](templates/.agent/skills/competitor-monitor/SKILL.md) |
-| `vision-analysis` | AI-powered image and ad creative analysis | [Doc](templates/.agent/skills/vision-analysis/SKILL.md) |
+
+### Design & UI/UX
+| Skill | Description | Doc |
+|-------|-------------|-----|
 | `ui-ux-pro-max` | Design intelligence for marketing | [Doc](templates/.agent/skills/ui-ux-pro-max/SKILL.md) |
 | `frontend-design` | Landing page & web design | [Doc](templates/.agent/skills/frontend-design/SKILL.md) |
 | `tailwind-patterns` | Utility-first CSS patterns | [Doc](templates/.agent/skills/tailwind-patterns/SKILL.md) |
+| `mobile-design` | Mobile-first responsive design patterns | [Doc](templates/.agent/skills/mobile-design/SKILL.md) |
 | `documentation-templates` | Marketing documentation templates | [Doc](templates/.agent/skills/documentation-templates/SKILL.md) |
-| `remotion-best-practices` | **Official Remotion video production rules** | [Doc](templates/.agent/skills/remotion-best-practices/SKILL.md) |
-| `ad-creative-variations` | Mass ad copy variations for Meta/Google/TikTok | [Doc](templates/.agent/skills/ad-creative-variations/SKILL.md) |
 
-## 🤖 Agents (4)
+### Development & Engineering
+| Skill | Description | Doc |
+|-------|-------------|-----|
+| `api-patterns` | API design patterns & best practices | [Doc](templates/.agent/skills/api-patterns/SKILL.md) |
+| `app-builder` | Full-stack application builder | [Doc](templates/.agent/skills/app-builder/SKILL.md) |
+| `architecture` | Software architecture patterns | [Doc](templates/.agent/skills/architecture/SKILL.md) |
+| `clean-code` | Clean code principles & refactoring | [Doc](templates/.agent/skills/clean-code/SKILL.md) |
+| `code-review-checklist` | Comprehensive code review checklist | [Doc](templates/.agent/skills/code-review-checklist/SKILL.md) |
+| `database-design` | Database schema design & optimization | [Doc](templates/.agent/skills/database-design/SKILL.md) |
+| `docker-expert` | Docker containerization best practices | [Doc](templates/.agent/skills/docker-expert/SKILL.md) |
+| `nestjs-expert` | NestJS framework expertise | [Doc](templates/.agent/skills/nestjs-expert/SKILL.md) |
+| `nextjs-best-practices` | Next.js best practices & patterns | [Doc](templates/.agent/skills/nextjs-best-practices/SKILL.md) |
+| `nodejs-best-practices` | Node.js production best practices | [Doc](templates/.agent/skills/nodejs-best-practices/SKILL.md) |
+| `prisma-expert` | Prisma ORM patterns & optimization | [Doc](templates/.agent/skills/prisma-expert/SKILL.md) |
+| `python-patterns` | Python design patterns & best practices | [Doc](templates/.agent/skills/python-patterns/SKILL.md) |
+| `react-patterns` | React component patterns & hooks | [Doc](templates/.agent/skills/react-patterns/SKILL.md) |
+| `typescript-expert` | TypeScript advanced techniques | [Doc](templates/.agent/skills/typescript-expert/SKILL.md) |
+| `vue-expert` | Vue.js framework expertise | [Doc](templates/.agent/skills/vue-expert/SKILL.md) |
+
+### DevOps & Infrastructure
+| Skill | Description | Doc |
+|-------|-------------|-----|
+| `bash-linux` | Shell scripting & Linux administration | [Doc](templates/.agent/skills/bash-linux/SKILL.md) |
+| `powershell-windows` | PowerShell scripting for Windows | [Doc](templates/.agent/skills/powershell-windows/SKILL.md) |
+| `deployment-procedures` | Production deployment strategies | [Doc](templates/.agent/skills/deployment-procedures/SKILL.md) |
+| `server-management` | Server administration & monitoring | [Doc](templates/.agent/skills/server-management/SKILL.md) |
+| `performance-profiling` | Application performance profiling | [Doc](templates/.agent/skills/performance-profiling/SKILL.md) |
+
+### Testing & Security
+| Skill | Description | Doc |
+|-------|-------------|-----|
+| `tdd-workflow` | Test-driven development workflow | [Doc](templates/.agent/skills/tdd-workflow/SKILL.md) |
+| `testing-patterns` | Testing patterns & strategies | [Doc](templates/.agent/skills/testing-patterns/SKILL.md) |
+| `webapp-testing` | Web application testing automation | [Doc](templates/.agent/skills/webapp-testing/SKILL.md) |
+| `lint-and-validate` | Code linting & validation automation | [Doc](templates/.agent/skills/lint-and-validate/SKILL.md) |
+| `red-team-tactics` | Security red team assessment tactics | [Doc](templates/.agent/skills/red-team-tactics/SKILL.md) |
+| `vulnerability-scanner` | Automated vulnerability scanning | [Doc](templates/.agent/skills/vulnerability-scanner/SKILL.md) |
+
+### Agent & Workflow Tools
+| Skill | Description | Doc |
+|-------|-------------|-----|
+| `behavioral-modes` | AI agent behavioral mode management | [Doc](templates/.agent/skills/behavioral-modes/SKILL.md) |
+| `mcp-builder` | MCP server builder toolkit | [Doc](templates/.agent/skills/mcp-builder/SKILL.md) |
+| `parallel-agents` | Multi-agent parallel execution patterns | [Doc](templates/.agent/skills/parallel-agents/SKILL.md) |
+| `plan-writing` | Structured planning & documentation | [Doc](templates/.agent/skills/plan-writing/SKILL.md) |
+| `systematic-debugging` | Systematic debugging methodology | [Doc](templates/.agent/skills/systematic-debugging/SKILL.md) |
+| `game-development` | Game development patterns & engines | [Doc](templates/.agent/skills/game-development/SKILL.md) |
+
+## 🤖 Agents (20)
 
 | Agent | Description |
 |-------|-------------|
@@ -113,8 +201,24 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `content-creator` | Content creation specialist |
 | `growth-specialist` | Growth hacking specialist |
 | `analytics-specialist` | Data analysis and insights |
+| `seo-specialist` | SEO optimization expert |
+| `frontend-specialist` | Frontend development expert |
+| `backend-specialist` | Backend development expert |
+| `database-architect` | Database design & optimization |
+| `devops-engineer` | DevOps and deployment automation |
+| `mobile-developer` | Mobile application development |
+| `test-engineer` | Testing & QA automation |
+| `security-auditor` | Security assessment & auditing |
+| `penetration-tester` | Security penetration testing |
+| `performance-optimizer` | Performance optimization expert |
+| `documentation-writer` | Technical documentation specialist |
+| `game-developer` | Game development specialist |
+| `debugger` | Systematic debugging expert |
+| `explorer-agent` | Codebase exploration & analysis |
+| `orchestrator` | Multi-agent orchestration |
+| `project-planner` | Project planning & management |
 
-## 🔄 Workflows (4)
+## 🔄 Workflows (17)
 
 | Command | Description |
 |---------|-------------|
@@ -122,8 +226,19 @@ Antigravity Marketing Kit is not just a tool; it's a **powerful AI strategy laye
 | `/content` | Content creation workflow |
 | `/analyze` | Marketing analytics workflow |
 | `/optimize` | Conversion optimization workflow |
-| `/report` | **Professional PDF report generation** |
-| `/brand-report` | **AI-driven brand style cloning & reporting** |
+| `/report` | **📄 Professional PDF report generation** |
+| `/brand-report` | **🎨 AI-driven brand style cloning & reporting** |
+| `/brainstorm` | Creative ideation sessions |
+| `/create` | General creation workflow |
+| `/debug` | Systematic debugging workflow |
+| `/deploy` | Production deployment workflow |
+| `/enhance` | Code enhancement & refactoring |
+| `/orchestrate` | Multi-agent orchestration |
+| `/plan` | Structured planning workflow |
+| `/preview` | Preview & review workflow |
+| `/status` | Project status assessment |
+| `/test` | Testing automation workflow |
+| `/ui-ux-pro-max` | Design intelligence workflow |
 
 ## 📦 Installation
 
@@ -199,6 +314,8 @@ Invoke workflows with slash commands:
 /content - Create content with guidance
 /analyze - Analyze marketing metrics
 /optimize - Run conversion optimization
+/report - Generate professional PDF reports
+/brand-report - AI-driven brand-styled reporting
 ```
 
 ## 🤝 Contributing
@@ -226,6 +343,7 @@ This project is built upon and includes skills from:
 - 🛠️ **[ClaudeKit](https://claudekit.cc/)** - Production-ready skills (`seo-fundamentals`, `documentation-templates`)
 - 🎬 **[Remotion Dev Skills](https://github.com/remotion-dev/skills)** - Official Remotion best practices (`remotion-best-practices`)
 - 📄 **[MiniMax AI Skills](https://github.com/MiniMax-AI/skills)** - High-fidelity document generation engine (`minimax-pdf`, `minimax-docx`, `minimax-xlsx`, `pptx-generator`, `minimax-multimodal-toolkit`, `vision-analysis`, `tutorial-video-expert`)
+- 🌌 **[Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)** - 250+ community-powered agentic skills (`marketing-ideas`, `cro-suite`, `programmatic-seo`, etc.)
 
 ## 📄 License
 

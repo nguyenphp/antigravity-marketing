@@ -1,7 +1,7 @@
 // i18n translations constants for easy updates
-const SKILL_COUNT = "66+";
+const SKILL_COUNT = "90+";
 const AGENT_COUNT = "20";
-const WORKFLOW_COUNT = "15";
+const WORKFLOW_COUNT = "17";
 
 const translations = {
     en: {
@@ -49,6 +49,8 @@ const translations = {
         "skills.ads": "Ads & Creative",
         "skills.competitor": "Competitor Intelligence",
         "skills.design": "Design & Development",
+        "skills.reporting": "Reporting & Document Engine",
+        "skills.video": "Video & Visual Production",
 
         // Install
         "install.title": "Get Started in Seconds",
@@ -433,6 +435,132 @@ const translations = {
                     "\"Create a full campaign brief document for a Q4 product launch.\"",
                     "\"Draft an SOP for our content creation process.\""
                 ]
+            },
+            "marketing-report-expert": {
+                "title": "Marketing Report Expert",
+                "description": "The master orchestrator for high-end reporting. Combines data from multiple sources into a beautifully designed, brand-aligned marketing report.",
+                "capabilities": [
+                    "Orchestrate multi-skill data collection",
+                    "Apply custom brand styles to any report",
+                    "Generate multi-format exports (PDF/DOCX)",
+                    "AI-driven summary and insights generation"
+                ],
+                "examples": [
+                    "\"Generate a comprehensive monthly marketing report for our brand.\"",
+                    "\"Create a strategy report using current website design as a style guide.\""
+                ]
+            },
+            "minimax-pdf": {
+                "title": "MiniMax PDF",
+                "description": "High-fidelity PDF generation engine. Create professional, agency-quality reports with perfect layout and Vietnamese font support.",
+                "capabilities": [
+                    "Pixel-perfect HTML to PDF rendering",
+                    "Full Unicode (Vietnamese) font support",
+                    "Automated table of contents & pagination",
+                    "Embed dynamic charts and images"
+                ],
+                "examples": [
+                    "\"Export this marketing strategy to a professional PDF report.\"",
+                    "\"Create a branded PDF brochure for our new product line.\""
+                ]
+            },
+            "minimax-docx": {
+                "title": "MiniMax Word",
+                "description": "Professional Word document generation. Turn your AI thoughts into perfectly formatted .docx files ready for stakeholder review.",
+                "capabilities": [
+                    "Dynamic Word document creation",
+                    "Style inheritance and custom branding",
+                    "Complex table and list formatting",
+                    "Ready-to-edit templates"
+                ],
+                "examples": [
+                    "\"Generate a draft marketing proposal in Word format.\"",
+                    "\"Convert this content brief into a clean .docx file.\""
+                ]
+            },
+            "minimax-xlsx": {
+                "title": "MiniMax Excel",
+                "description": "Advanced spreadsheet automation. Handle massive marketing datasets, perform complex calculations, and export clean Excel reports.",
+                "capabilities": [
+                    "Programmatic spreadsheet generation",
+                    "Data cleaning and transformation",
+                    "Automated marketing KPI calculations",
+                    "Multi-sheet reporting structures"
+                ],
+                "examples": [
+                    "\"Export our campaign performance data to an Excel sheet.\"",
+                    "\"Create a budget projection spreadsheet for next year.\""
+                ]
+            },
+            "pptx-generator": {
+                "title": "PPTX Generator",
+                "description": "Stage-ready presentation generation. Move from strategy to slides in seconds with professional PowerPoint templates.",
+                "capabilities": [
+                    "Automated slide deck creation",
+                    "Visual layout and hierarchy design",
+                    "Chart and image integration",
+                    "Branded presentation themes"
+                ],
+                "examples": [
+                    "\"Create a 10-slide pitch deck for our growth strategy.\"",
+                    "\"Turn this campaign analysis into a PowerPoint presentation.\""
+                ]
+            },
+            "tutorial-video-expert": {
+                "title": "Tutorial Expert",
+                "description": "Professional educational content. Create clear, concise, and engaging tutorial videos that help users master your product.",
+                "capabilities": [
+                    "Step-by-step tutorial scripting",
+                    "Visual explanation focus",
+                    "On-screen highlight strategies",
+                    "Educational flow optimization"
+                ],
+                "examples": [
+                    "\"Write a script for a 2-minute tutorial on how to use our dashboard.\"",
+                    "\"Outline a video series teaching SEO basics to beginners.\""
+                ]
+            },
+            "vision-analysis": {
+                "title": "Vision Analysis",
+                "description": "AI-powered creative intelligence. Analyze ad images, landing pages, and competitor designs to understand what visually converts.",
+                "capabilities": [
+                    "Ad creative conversion analysis",
+                    "Visual heat-map prediction",
+                    "Design style & color palette extraction",
+                    "Competitor visual benchmarking"
+                ],
+                "examples": [
+                    "\"Analyze these 3 ad creatives and tell me which one will convert better.\"",
+                    "\"Extract the color palette and typography from this screenshot.\""
+                ]
+            },
+            "banner-design": {
+                "title": "Banner Design",
+                "description": "Visual marketing assets. Design intelligence for banners that stand out and drive clicks across all digital channels.",
+                "capabilities": [
+                    "Ad banner layout principles",
+                    "Visual hierarchy optimization",
+                    "Channel-specific size guidelines",
+                    "CTA visibility enhancement"
+                ],
+                "examples": [
+                    "\"Design a set of Google Display Network banners for our sale.\"",
+                    "\"Suggest improvements for our hero banner to increase CTR.\""
+                ]
+            },
+            "remotion-best-practices": {
+                "title": "Remotion Rules",
+                "description": "The logic behind the motion. Professional rules for building programmatic video assets that are stable, fast, and beautiful.",
+                "capabilities": [
+                    "Performance-optimized video coding",
+                    "Asset management & dynamic sourcing",
+                    "Animation timing and easing principles",
+                    "Scalable video production workflows"
+                ],
+                "examples": [
+                    "\"Audit my Remotion code for performance bottlenecks.\"",
+                    "\"Apply professional easing curves to these video transitions.\""
+                ]
             }
         }
     },
@@ -480,7 +608,9 @@ const translations = {
         "skills.optimization": "Tối ưu & Analytics",
         "skills.ads": "Ads & Creative",
         "skills.competitor": "Competitor Intelligence",
-        "skills.design": "Design & Development",
+        "skills.design": "Thiết kế & Phát triển",
+        "skills.reporting": "Báo cáo & Tài liệu (MiniMax)",
+        "skills.video": "Sản xuất Video & Hình ảnh",
 
         // Install
         "install.title": "Bắt đầu trong vài giây",

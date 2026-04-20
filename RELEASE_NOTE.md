@@ -1,3 +1,25 @@
+# Release v1.0.19 - The "Grand Orchestration" Update 🌌
+
+This landmark update finally bridges the gap between our core architecture and the full breadth of Antigravity Marketing intelligence. We've synchronized the kit to include all 90+ skills, 20 agents, and 17 workflows.
+
+## 🚀 Key Highlights
+
+### 1. The Full 90-Skill Suite
+We've restored all specialized modules, from programmatic SEO to deep marketing psychology. This provides categorical depth that makes Antigravity Marketing the most comprehensive agentic kit for growth.
+
+### 2. High-Fidelity Reporting (MiniMax Engine)
+Professional document generation is now a core priority. With the MiniMax engine, you can generate pixel-perfect PDFs, Word docs, and Excel sheets that support Vietnamese Unicode natively and inherit your brand's visual identity.
+
+### 3. Programmatic Video Production
+The Video Automation skill has been refined with Remotion best practices. You can now generate high-fidelity, data-driven marketing videos at scale.
+
+## ✨ Improvements
+- **Synchronized Architecture**: Versioning and skill counts are now strictly synchronized across the CLI, `package.json`, and the marketing website.
+- **Expanded Agent Core**: 20 specialized agents are now ready to handle everything from DB design to security auditing.
+- **17 Slash Workflows**: Intuitive commands for complex marketing procedures.
+
+---
+
 # Release v1.0.15 - The "Automated Release" Update 🤖
 
 This update introduces automated GitHub Release creation. Now, whenever a new version is tagged, the kit automatically generates a GitHub Release with the corresponding notes from `RELEASE_NOTE.md`.

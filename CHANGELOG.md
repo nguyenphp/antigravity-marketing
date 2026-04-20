@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.19] - 2026-04-18
+
+### Added
+- **Massive Skill Expansion**: Restored and updated the full suite to **90 specialized skills** (was 34), reaching full depth across Growth, Strategy, Analytics, and Creative domains.
+- **Reporting & Document Engine (MiniMax)**: Strategic focus on high-fidelity document generation (`minimax-pdf`, `minimax-docx`, `minimax-xlsx`, `pptx-generator`).
+- **Video & Visual Production**: Integrated robust video automation tools (`video-automation`, `video-marketing`, `tutorial-video-expert`) with Remotion best practices.
+- **Expanded Agent Roster**: Doubled the specialized agent count to **20 AI experts** (Strategist, Security Auditor, Database Architect, etc.).
+- **Workflow Optimization**: Added 11 new slash workflows (total 17), including `/brandreport`, `/brainstorm`, and `/orchestrate`.
+
+### Changed
+- **Documentation Overhaul**: Complete rewrite of README.md to reflect the full 90-skill architecture.
+- **Website Sync**: Updated the official homepage (ag-mkt.site) with synchronized counts, icon systems, and multimodal skill details.
+
 ## [1.0.13] - 2026-04-13
 
 ### Added

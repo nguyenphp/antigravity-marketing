@@ -110,7 +110,16 @@ const skillIcons = {
     'ui-ux-pro-max': '✨',
     'frontend-design': '🖥️',
     'tailwind-patterns': '🎨',
-    'documentation-templates': '📝'
+    'documentation-templates': '📝',
+    'marketing-report-expert': '🏆',
+    'minimax-pdf': '📄',
+    'minimax-docx': '📝',
+    'minimax-xlsx': '📊',
+    'pptx-generator': '🎭',
+    'tutorial-video-expert': '🎓',
+    'vision-analysis': '👁️',
+    'banner-design': '🖼️',
+    'remotion-best-practices': '🎬'
 };
 
 // Show Skill Modal
